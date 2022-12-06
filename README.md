@@ -7,12 +7,12 @@ The app has 2 flavors, one free and one premium
   The free flavor gives you basic operations like ```addition```, ```substraction``` and ```multiplication```
 
   - Premium
-  The premium flavor gives you more fucntionality:
+  The premium flavor gives you more functionality:
     + Being able to clear the screen
     + ```division```
     + ```remainder of division```
 
-This isn't meant to be a production app, it's just an exercise to practive android product flavors and android development in general
+This isn't meant to be a production app, it's just an exercise to practice android product flavors and android development in general
 
 # Technologies Used
 
