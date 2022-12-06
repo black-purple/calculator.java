@@ -1,5 +1,6 @@
 # Calculator
 A simple calculator app for android devices
+
 The app has 2 flavors, one free and one premium
 
   - Free
