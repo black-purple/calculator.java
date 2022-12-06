@@ -1,5 +1,5 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name" tools:ignore="TypographyDashes,Typos">TAF_11–12-2022_Android</string>
+<resources>
+    <string name="app_name">Calculator</string>
     <string name="button1">1</string>
     <string name="button2">2</string>
     <string name="button3">3</string>

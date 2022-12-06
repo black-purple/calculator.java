@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         timesB = findViewById(R.id.times);
 
         ArrayList<MaterialButton> buttons = new ArrayList<MaterialButton>();
-
+        // Number buttons
         buttons.add(oneB);
         buttons.add(twoB);
         buttons.add(threeB);
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         buttons.add(nineB);
         buttons.add(zeroB);
         buttons.add(dotB);
-
+        // Functionality buttons
         buttons.add(plusB);
         buttons.add(minusB);
         buttons.add(timesB);
@@ -69,18 +69,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         MaterialButton btn = (MaterialButton) view;
         String btnText = btn.getText().toString();
+        btnText = btnText.equals("mod") ? "#" : btnText;
         String operationText = operationTV.getText().toString();
 
-        if (!btnText.equals("=")) {
-            operationText = operationText + btnText;
+        if (!btnText.equals("=") && !btnText.equals("AC")) {
+            operationText = operationText.equals("0") ? "" + btnText : operationText + btnText;
             operationTV.setText(operationText);
         } else {
-            try {
-                Expression e = new Expression(operationText);
-                double result = e.calculate();
-                resTV.setText(String.format("%s", result));
-            } catch (Exception err) {
-                System.out.println(err);
+            if (btnText.equals("AC")) {
+                operationTV.setText("0");
+                resTV.setText("0");
+            } else {
+                try {
+                    Expression e = new Expression(operationText);
+                    double result = e.calculate();
+                    resTV.setText(String.format("%s", result));
+                } catch (Exception err) {
+                    System.out.println(err);
+                }
             }
         }
     }

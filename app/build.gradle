@@ -16,7 +16,7 @@ android {
     }
     flavorDimensions "baseFlavors"
     productFlavors {
-        versionGartuite {
+        versionGratuite {
             applicationId "com.taf.blackpurple.gratuite"
             dimension "baseFlavors"
             applicationIdSuffix ".free"

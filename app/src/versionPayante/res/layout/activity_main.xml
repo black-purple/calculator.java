@@ -106,7 +106,8 @@
                 android:backgroundTint="@color/purple_200"
                 android:text="@string/button7"
                 android:textSize="30sp"
-                app:cornerRadius="70dp" />
+                app:cornerRadius="70dp"
+                />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/b8"
@@ -117,7 +118,8 @@
                 android:backgroundTint="@color/purple_200"
                 android:text="@string/button8"
                 android:textSize="30sp"
-                app:cornerRadius="70dp" />
+                app:cornerRadius="70dp"
+                />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/b9"
@@ -128,7 +130,8 @@
                 android:backgroundTint="@color/purple_200"
                 android:text="@string/button9"
                 android:textSize="30sp"
-                app:cornerRadius="70dp" />
+                app:cornerRadius="70dp"
+                />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/times"
@@ -139,7 +142,8 @@
                 android:backgroundTint="@color/purple_500"
                 android:text="@string/times_sign"
                 android:textSize="30sp"
-                app:cornerRadius="70dp" />
+                app:cornerRadius="70dp"
+                />
 
         </LinearLayout>
 
@@ -159,7 +163,8 @@
                 android:backgroundTint="@color/purple_200"
                 android:text="@string/button4"
                 android:textSize="30sp"
-                app:cornerRadius="70dp" />
+                app:cornerRadius="70dp"
+                />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/b5"
@@ -170,7 +175,8 @@
                 android:backgroundTint="@color/purple_200"
                 android:text="@string/button5"
                 android:textSize="30sp"
-                app:cornerRadius="70dp" />
+                app:cornerRadius="70dp"
+                />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/b6"
@@ -181,7 +187,8 @@
                 android:backgroundTint="@color/purple_200"
                 android:text="@string/button6"
                 android:textSize="30sp"
-                app:cornerRadius="70dp" />
+                app:cornerRadius="70dp"
+                />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/minus"
@@ -192,7 +199,8 @@
                 android:backgroundTint="@color/purple_500"
                 android:text="@string/plus_sign"
                 android:textSize="40sp"
-                app:cornerRadius="70dp" />
+                app:cornerRadius="70dp"
+                />
 
         </LinearLayout>
 
@@ -212,7 +220,8 @@
                 android:backgroundTint="@color/purple_200"
                 android:text="@string/button1"
                 android:textSize="30sp"
-                app:cornerRadius="70dp" />
+                app:cornerRadius="70dp"
+                />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/b2"
@@ -223,7 +232,8 @@
                 android:backgroundTint="@color/purple_200"
                 android:text="@string/button2"
                 android:textSize="30sp"
-                app:cornerRadius="70dp" />
+                app:cornerRadius="70dp"
+                />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/b3"
@@ -234,7 +244,8 @@
                 android:backgroundTint="@color/purple_200"
                 android:text="@string/button3"
                 android:textSize="30sp"
-                app:cornerRadius="70dp" />
+                app:cornerRadius="70dp"
+                />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/plus"
@@ -245,7 +256,8 @@
                 android:backgroundTint="@color/purple_500"
                 android:text="@string/minus_sign"
                 android:textSize="60sp"
-                app:cornerRadius="70dp" />
+                app:cornerRadius="70dp"
+                />
 
         </LinearLayout>
 
@@ -263,7 +275,8 @@
                 android:backgroundTint="@color/purple_200"
                 android:text="@string/button0"
                 android:textSize="30sp"
-                app:cornerRadius="70dp" />
+                app:cornerRadius="70dp"
+                />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/bdot"
@@ -273,7 +286,8 @@
                 android:backgroundTint="@color/teal_700"
                 android:text="@string/buttondot"
                 android:textSize="30sp"
-                app:cornerRadius="70dp" />
+                app:cornerRadius="70dp"
+                />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/bequals"
@@ -283,7 +297,8 @@
                 android:backgroundTint="@color/black"
                 android:text="@string/button_equals"
                 android:textSize="35sp"
-                app:cornerRadius="70dp" />
+                app:cornerRadius="70dp"
+                />
 
         </LinearLayout>
 
