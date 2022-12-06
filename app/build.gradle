@@ -6,7 +6,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.taf_11_12_2022_android"
+        applicationId "com.taf.blackpurple"
         minSdk 25
         targetSdk 32
         versionCode 1
@@ -14,7 +14,19 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
+    flavorDimensions "baseFlavors"
+    productFlavors {
+        versionGartuite {
+            applicationId "com.taf.blackpurple.gratuite"
+            dimension "baseFlavors"
+            applicationIdSuffix ".free"
+        }
+        versionPayante {
+            applicationId "com.taf.blackpurple.payante"
+            dimension "baseFlavors"
+            applicationIdSuffix ".premium"
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
@@ -28,9 +40,9 @@ android {
 }
 
 dependencies {
-
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.7.0'
+    implementation 'org.mariuszgromada.math:MathParser.org-mXparser:5.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'

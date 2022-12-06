@@ -1,5 +1,5 @@
-<resources>
-    <string name="app_name">TAF_11-12-2022_Android</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="TypographyDashes,Typos">TAF_11–12-2022_Android</string>
     <string name="button1">1</string>
     <string name="button2">2</string>
     <string name="button3">3</string>
@@ -9,4 +9,14 @@
     <string name="button9">9</string>
     <string name="button8">8</string>
     <string name="button7">7</string>
+    <string name="plus_sign">+</string>
+    <string name="minus_sign">-</string>
+    <string name="times_sign">*</string>
+    <string name="button0">0</string>
+    <string name="buttondot">.</string>
+    <string name="button_equals">=</string>
+    <string name="div">/</string>
+    <string name="mod">mod</string>
+    <string name="ac">AC</string>
+    <string name="clr">&lt;-</string>
 </resources>
