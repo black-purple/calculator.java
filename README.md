@@ -4,9 +4,11 @@ A simple calculator app for android devices
 The app has 2 flavors, one free and one premium
 
   - Free
+  
   The free flavor gives you basic operations like ```addition```, ```substraction``` and ```multiplication```
 
   - Premium
+  
   The premium flavor gives you more functionality:
     + Being able to clear the screen
     + ```division```
