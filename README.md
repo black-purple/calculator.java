@@ -10,9 +10,12 @@ The app has 2 flavors, one free and one premium
   - Premium
   
   The premium flavor gives you more functionality:
-    + Being able to clear the screen
-    + ```division```
-    + ```remainder of division```
+  
+   &plus; ```Being able to clear the screen```
+   
+   &plus; ```division```
+   
+   &plus; ```remainder of division```
 
 This isn't meant to be a production app, it's just an exercise to practice android product flavors and android development in general
 
